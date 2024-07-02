@@ -1,0 +1,6 @@
+{
+    "countries": ["israel", "spain", "england", "canada", "germany", "japan", "portugal", "russia", "brazil", "argentina"],
+    "cities": ["paris", "london", "dubai", "bangkok", "tokyo", "milano", "amsterdam", "chicago", "barcelona", "berlin"],
+    "colors": ["red", "blue", "green", "yellow", "purple", "orange", "pink", "brown", "black", "white"],
+    "fruits": ["apple", "banana", "orange", "mango", "strawberry", "blueberry", "pineapple", "watermelon", "grapes", "peach"]
+}
