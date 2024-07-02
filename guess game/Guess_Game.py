@@ -1,14 +1,6 @@
 import random
 import json
 
-# Create categories JSON file if it doesn't exist
-categories = {
-    "countries": ["israel", "spain", "england", "canada", "germany", "japan", "portugal", "russia", "brazil", "argentina"],
-    "cities": ["paris", "london", "dubai", "bangkok", "tokyo", "milano", "amsterdam", "chicago", "barcelona", "berlin"],
-    "colors": ["red", "blue", "green", "yellow", "purple", "orange", "pink", "brown", "black", "white"],
-    "fruits": ["apple", "banana", "orange", "mango", "strawberry", "blueberry", "pineapple", "watermelon", "grapes", "peach"]
-}
-
 # Save categories to a JSON file named 'words_bank.json'
 with open('words_bank.json', 'w') as file:
     json.dump(categories, file)
